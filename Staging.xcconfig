@@ -1,0 +1,23 @@
+//
+//  Staging.xcconfig
+//  PhaseEx
+//
+//  Created by dev dfcc on 2023/05/04.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-PhaseEx/Pods-PhaseEx.debug (staging).xcconfig"
+#include "Pods/Target Support Files/Pods-PhaseEx/Pods-PhaseEx.release (staging).xcconfig"
+
+// Server URL
+ROOT_URL = https:/$()/www.staging.mytestapp.thoughtbot.com
+
+// Keys
+API_KEY = 89dhdyd93380dkqmoe_hd830dhq
+
+// App Settings
+APP_NAME = PhaseEx (staging)
+PRODUCT_BUNDLE_IDENTIFIER = com.PhaseEx.staging
+

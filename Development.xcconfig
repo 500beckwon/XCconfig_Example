@@ -1,0 +1,24 @@
+//
+//  Development.xconfig
+//  PhaseEx
+//
+//  Created by dev dfcc on 2023/05/04.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-PhaseEx/Pods-PhaseEx.debug (development).xcconfig"
+#include "Pods/Target Support Files/Pods-PhaseEx/Pods-PhaseEx.release (development).xcconfig"
+
+// Server URL
+ROOT_URL = http:/$()/localhost:3000
+ 
+// Keys
+API_KEY = 783u9djd8a_hkzos7jd803001nd
+
+// App Settings
+APP_NAME = PhaseEx (dev)
+PRODUCT_BUNDLE_IDENTIFIER = com.PhaseEx.dev
+
+
